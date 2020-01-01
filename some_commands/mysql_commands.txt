@@ -1,0 +1,6 @@
+#### MySQL commands
+
+###################
+
+# MySQL user account password;
+area123

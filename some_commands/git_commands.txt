@@ -1,0 +1,73 @@
+####
+#### Creating a repository on Github.com from the terminal
+#### step by step
+
+
+1. 
+	Create an empty repository on github.com (on the website)
+	create it without providing README or license files.
+	for avoiding any further issues, you can always add them lately.
+
+2. 
+	On our local machine
+	Navigate through the root of our project and run git initializer command
+
+	$ git init
+
+3. 
+	Adding files to our new local directory, for this run command
+
+	$ git add .
+
+4.
+	Commiting the staged files to the local repository
+
+	$ git commit -m "comment goes here"
+
+5. 
+	Returning to the github.com page and copying the url of our project.
+	Must look similar to this example
+	"https://github.com/iasonweb/maven_hello_world.git"
+
+6.
+	adding remote repository to our local repository, for futher pushing
+	
+	$ git remote add origin remote-repo-url
+		### remote-repo-url for this see upper example
+
+	$ git remote -v
+		## verifies the new remote URL
+
+7.
+	Push changes to GitHub
+
+	$ git push origin master
+
+	### after this step we should entere our github login and password
+	### and our project will be uploaded into the github.com repository.
+
+
+
+$$$$$$$$$$$$$$$$$$###############
+@@###@@
+####### adding a file to the repository using command line.
+
+1. 	First of all you should have the local copy of the github repository on 
+	your machine
+
+	after that you should add changes locally by typing
+	
+	$ git add .
+
+2. 
+	Commit the changes to the local directory
+
+	$ git commit -m "comment goes here"
+
+3.
+	Push changes to the local repository to Github.
+	
+	$ git push origin your-branch
+
+	### after this command enter your password and username and 
+	### changes will take place on the github repository.

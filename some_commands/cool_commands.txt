@@ -1,0 +1,5 @@
+#### fonts config command
+fc-cache -fv
+
+#### know if you're logged in wayland or xorg
+echo $XDG_SESSION_TYPE

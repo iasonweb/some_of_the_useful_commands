@@ -1,0 +1,65 @@
+;; after creating mvn project using spring start website we have to run those two commands to make mvn work:
+
+
+***
+mvn -N io.takari:maven:wrapper
+
+***
+mvn -N io.takari:maven:wrapper -Dmaven=3.6.0
+
+;; after we change the content of pom.xml file and want to synchronize the project with the new futures:
+
+***
+;; update mvn project
+mvn dependency:resolve
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    <!-- path to the main method of the java app -->
+	<plugin>
+	  <!-- Build an executable JAR -->
+	  <groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-jar-plugin</artifactId>
+	  <version>3.1.0</version>
+	  <configuration>
+            <archive>
+              <manifest>
+		<addClasspath>true</addClasspath>
+		<classpathPrefix>lib/</classpathPrefix>
+		<mainClass>com.iason.app.App</mainClass>
+              </manifest>
+            </archive>
+	  </configuration>
+	</plugin>
+
+
+*******************************************************************************
+;; running java program from maven 
+mvn exec:java -Dexec.mainClass="com.vineetmanohar.module.Main" 
+
+
+###############################################################################
+;; gathering every jar file in one file:
+
+    <plugin>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifest>
+            <mainClass>fully.qualified.MainClass</mainClass>
+          </manifest>
+        </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+      </configuration>
+    </plugin>
+
+;; after that run:
+mvn clean compile assembly:single
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;; compiling and building mvn project;
+
+mvn compile 
+mvn package

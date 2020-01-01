@@ -1,0 +1,12 @@
+#### Gradle commands
+####################
+
+#### Gradle plugin to initialize the project
+## enter into the root of your project and type:
+gradle init
+
+#### build.gradle file, where we put our custom plugins, and later
+## execute it by using 'gradlew' script, and put our plugin name as an
+## argument to this function.
+
+

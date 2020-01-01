@@ -1,0 +1,43 @@
+###############################################################################
+####                POSTGRESQL -- TIPS
+
+#### switching to the Postgres acount
+$
+sudo -i -u postgres
+
+
+#### to access Postgres prompt immediately
+$
+psql
+
+
+#### for quiting Postgres 
+$
+\q
+
+
+#### switching to Postgres by using just one command, unlike first two steps
+$
+sudo -u postgres psql
+
+
+#### -----------------------------
+#### Creating users in Postgresql
+####
+#### when being in Postgresql prompt click enter the following:
+$
+createuser --interactive
+
+#### otherwise when being in Linux prompt click the folowing:
+$
+sudo -u postgres createuser --interactive
+
+
+============================================================
+============================================================
+
+== New Examples ==
+
+#### entering the postgresql prompt || "name"
+sudo psql -d "postgres"  
+

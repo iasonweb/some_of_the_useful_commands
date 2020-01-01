@@ -1,0 +1,14 @@
+1. Core Java
+2. OOP basics
+3. Design patterns
+4. Multithreading
+5. apache tomcat
+6. spring framework
+7. hibernate
+8. unit testing
+9. relational databases
+10. JavaScript
+11.algorithms and data structures
+12.maven and gradle
+13.github
+14.rest

@@ -1,0 +1,9 @@
+############### Color codes #############
+  
+#### FROM MONOKAI SERIES ####
+
+# Background color:
+#272822
+
+# Foreground color:
+#F8F8F2

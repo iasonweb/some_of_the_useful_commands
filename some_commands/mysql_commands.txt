@@ -2,5 +2,3 @@
 
 ###################
 
-# MySQL user account password;
-area123

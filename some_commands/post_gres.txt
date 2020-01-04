@@ -75,3 +75,6 @@ $ CREATE TABLE table_name {
 #### Data types in postgresql 
 official posgtresql documentation e.g.:
 https://www.postgresql.org/docs/9.5/datatype.html
+
+#### show tables in the database
+$ \d

@@ -61,4 +61,13 @@ $ \?
 $ CREATE DATABASE db_name;
 ## uppercase preffered
 
-#### 
+#### some other psql help options
+$ psql --help
+
+#### to delete database
+$ DROP DATABASE db_name;
+
+#### creating table in postgres
+$ CREATE TABLE table_name {
+      Column_name data_type constraints_if_any;	
+  }

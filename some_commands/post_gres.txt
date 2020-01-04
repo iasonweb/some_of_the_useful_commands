@@ -41,3 +41,24 @@ sudo -u postgres createuser --interactive
 #### entering the postgresql prompt || "name"
 sudo psql -d "postgres"  
 
+======================
+#### list the databases 
+$ \l
+
+#### connect to the database
+$ \c databaseName
+
+#### get help
+$ help
+
+#### quit the database
+$ \q
+
+#### more help
+$ \?
+
+#### craeting new database
+$ CREATE DATABASE db_name;
+## uppercase preffered
+
+#### 

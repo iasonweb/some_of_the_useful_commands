@@ -89,3 +89,7 @@ $ INSERT INTO table_name (
   ) VALUES (
       values
   );
+
+## when inserting to the posgtesql use ' (single quotation mark for string 
+## literals) and " double quotation mark for tables and field names,
+## this is SQL standard.

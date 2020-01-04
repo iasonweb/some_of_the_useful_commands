@@ -71,3 +71,7 @@ $ DROP DATABASE db_name;
 $ CREATE TABLE table_name {
       Column_name data_type constraints_if_any;	
   }
+
+#### Data types in postgresql 
+official posgtresql documentation e.g.:
+https://www.postgresql.org/docs/9.5/datatype.html

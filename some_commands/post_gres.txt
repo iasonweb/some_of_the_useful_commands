@@ -78,3 +78,6 @@ https://www.postgresql.org/docs/9.5/datatype.html
 
 #### show tables in the database
 $ \d
+
+#### to drop a table 
+$ DROP TABLE table_name;

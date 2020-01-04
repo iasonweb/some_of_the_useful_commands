@@ -81,3 +81,11 @@ $ \d
 
 #### to drop a table 
 $ DROP TABLE table_name;
+
+####@@@@
+#### inserting values into the table 
+$ INSERT INTO table_name (
+      parameters
+  ) VALUES (
+      values
+  );

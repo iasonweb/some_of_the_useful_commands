@@ -134,3 +134,4 @@ e.g.
     $ SELECT NOW()::DATE;
     ## to view only time:
     $ SELECT NOW()::TIME;
+    #### for more information see official docs.

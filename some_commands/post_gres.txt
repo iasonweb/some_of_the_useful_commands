@@ -93,3 +93,22 @@ $ INSERT INTO table_name (
 ## when inserting to the posgtesql use ' (single quotation mark for string 
 ## literals) and " double quotation mark for tables and field names,
 ## this is SQL standard.
+
+#### Concat function
+e.g.
+    $ SELECT CONCAT (someelement, ' ', someotherelement) FROM tablename;
+    ## will provide an output separated by the single space.
+
+#### Limit keyword
+    ## gives us limit of the displayed elements
+    $ SELECT * FROM tablename LIMIT number;
+
+#### display the same elements only once (distinct) keyword
+    $ SELECT DISTINCT column_name FROM table_name;
+
+#### ordering by ascending or descending order.
+    ## by default order by is ascending order and there is not necessity 
+    $ SELECT * FROM table_name ORDER BY column_name ASC;
+
+    ## and ordering by descending order
+    $ SELECT * FROM table_name ORDER BY column_name DESC;

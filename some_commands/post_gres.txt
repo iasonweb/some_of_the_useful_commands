@@ -130,3 +130,7 @@ e.g.
     ## view current time, 2 ways;
     1) SELECT NOW();
     2) SELECT CURRENT_TIMESTAMP;
+    ## to view only date:
+    $ SELECT NOW()::DATE;
+    ## to view only time:
+    $ SELECT NOW()::TIME;

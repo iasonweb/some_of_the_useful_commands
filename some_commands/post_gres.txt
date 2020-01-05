@@ -115,3 +115,9 @@ e.g.
 
     ## and ordering by descending order
     $ SELECT * FROM table_name ORDER BY column_name DESC;
+
+#### group by keyword e.g
+    #### when we're organizing data by their appearnces
+    $ SELECT column, COUNT (*) FROM table_name GROUP BY column;
+
+####

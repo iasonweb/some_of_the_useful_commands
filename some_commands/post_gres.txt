@@ -103,6 +103,9 @@ e.g.
     ## gives us limit of the displayed elements
     $ SELECT * FROM tablename LIMIT number;
 
+    ## offset keyword could be used to avoid biginnig results
+    $ SELECT * FROM tablename LIMIT number OFFSET anothernumber;
+
 #### display the same elements only once (distinct) keyword
     $ SELECT DISTINCT column_name FROM table_name;
 

@@ -125,3 +125,8 @@ e.g.
     $ SELECT column, COUNT(*) FROM table_name GROUP BY column HAVING COUNT(*) > some_number;
     #### see agregate funcitons in the official postgresql documentation.
     #### we used count() in our examples.
+
+#### Date functions
+    ## view current time, 2 ways;
+    1) SELECT NOW();
+    2) SELECT CURRENT_TIMESTAMP;

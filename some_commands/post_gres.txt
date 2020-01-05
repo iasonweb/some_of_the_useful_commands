@@ -120,4 +120,8 @@ e.g.
     #### when we're organizing data by their appearnces
     $ SELECT column, COUNT (*) FROM table_name GROUP BY column;
 
-####
+#### having keyword
+    #### it is used alongside the group by to determine more filtering
+    $ SELECT column, COUNT(*) FROM table_name GROUP BY column HAVING COUNT(*) > some_number;
+    #### see agregate funcitons in the official postgresql documentation.
+    #### we used count() in our examples.

@@ -135,3 +135,9 @@ e.g.
     ## to view only time:
     $ SELECT NOW()::TIME;
     #### for more information see official docs.
+
+#### updating table
+    ## Syntax
+    $ UPDATE table_name
+          SET column_name = value
+          WHERE column_name = something

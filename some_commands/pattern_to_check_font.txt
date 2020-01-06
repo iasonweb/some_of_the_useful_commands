@@ -4,7 +4,7 @@ This is a pattern to check is programming font is good
 o0O s5S z2Z !|l1Iij {([|})] .,;: ``''"" 
 a@#* vVuUwW <>;^°=-~ öÖüÜäÄßµ \/\/ 
 the quick brown fox jumps over the lazy dog
-THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOGшцщч ШЦШЩ
 0123456789 &-+@ for (int i=0; i<j; ++i) { }
 |--__
 |

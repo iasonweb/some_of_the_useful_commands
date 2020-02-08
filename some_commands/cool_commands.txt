@@ -3,3 +3,7 @@ fc-cache -fv
 
 #### know if you're logged in wayland or xorg
 echo $XDG_SESSION_TYPE
+
+#### how to awake emacs after pressing (C-z) | (or other programs after minimizing
+#### them. 
+fg %emacs

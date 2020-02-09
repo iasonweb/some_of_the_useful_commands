@@ -16,3 +16,6 @@ $ sudo apt install cmatrix
 $ rev
 RET
 { strings }
+
+#### yes __ repeats the argument string until killed
+$ yes { argument }

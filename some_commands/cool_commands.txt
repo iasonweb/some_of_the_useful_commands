@@ -7,3 +7,7 @@ echo $XDG_SESSION_TYPE
 #### how to awake emacs after pressing (C-z) | (or other programs after minimizing
 #### them. 
 fg %emacs
+
+#### cmatirx || matirx on terminal screen
+#### for installing on debian basd systems:
+$ sudo apt install cmatrix

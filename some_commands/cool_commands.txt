@@ -11,3 +11,8 @@ fg %emacs
 #### cmatirx || matirx on terminal screen
 #### for installing on debian basd systems:
 $ sudo apt install cmatrix
+
+#### rev __ reverse the string of characters
+$ rev
+RET
+{ strings }

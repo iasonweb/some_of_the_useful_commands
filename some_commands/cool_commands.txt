@@ -19,3 +19,6 @@ RET
 
 #### yes __ repeats the argument string until killed
 $ yes { argument }
+
+#### sleep -- sleeps for some seconds given as an argument
+$ sleep { argument }
